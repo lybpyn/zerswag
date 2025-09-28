@@ -1,4 +1,4 @@
-module zerswag
+module github.com/lybpyn/zerswag
 
 go 1.25.0
 
