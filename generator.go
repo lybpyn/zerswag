@@ -1,4 +1,4 @@
-package zeroswagger
+package zerswag
 
 import (
 	"os"

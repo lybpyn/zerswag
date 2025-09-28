@@ -13,7 +13,7 @@
 
 ```
 // 1. 引入zeroswagger
-import "github.com/speedphp/zeroswagger"
+import "github.com/lybpyn/zerswag"
 
 func main() {
 	flag.Parse()
