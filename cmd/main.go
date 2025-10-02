@@ -23,5 +23,5 @@ func main() {
 	fmt.Println("Swagger UI available at: http://localhost:8080/doc/")
 	fmt.Println("API docs available at: http://localhost:8080/doc/api-gate.api.json")
 
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":6080", nil)
 }

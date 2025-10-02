@@ -29,7 +29,7 @@ func GenerateApi(docPath string, basePath string) []JsonPath {
 		displayName := strings.TrimSuffix(fileName, ".json")
 
 		resultMap = append(resultMap, JsonPath{
-			JsonFile:     docPath + "/" + fileName,
+			JsonFile:     docPath + "/api-" + fileName,
 			Name:         displayName,
 			RealFileName: fileName,
 			FullPath:     jsonPath,
